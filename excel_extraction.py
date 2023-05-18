@@ -1,5 +1,5 @@
 # 使用规则：
-# excel_analysis filepath [exportpath] --sheet 0 1 --rule "A1:D:(aa&bb)|(cc)"  "B1:S:!([0-9]+)|([a-z]{4})" ... --sheet n  --rule "A1:D:(aa&bb)|(cc)"  "B1:S:([0-9]+)|([a-z]{4})"
+# python excel_extraction filepath [exportpath] --sheet 0 1 --rule "A1:D:(aa&bb)|(cc)"  "B1:S:!([0-9]+)|([a-z]{4})" ... --sheet n  --rule "A1:D:(aa&bb)|(cc)"  "B1:S:([0-9]+)|([a-z]{4})"
 # filepath
 #   操作的excel表格对象
 # exportpath
